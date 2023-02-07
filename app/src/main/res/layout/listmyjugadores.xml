@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D30808">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:background="#D11010"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView12"
+            android:layout_width="391dp"
+            android:layout_height="432dp"
+            android:background="#AF0A0A"
+            app:cardBackgroundColor="#AF0A0A"
+            app:cardCornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.093">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                android:background="#AF0A0A"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="394dp"
+                    android:layout_height="461dp"
+                    android:background="#AC0F0F"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#AC0F0F" />
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="63dp"
+                        app:cardBackgroundColor="#980606"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="50dp"
+                        app:cardMaxElevation="20dp">
+
+                        <TextView
+                            android:id="@+id/textNameMiJugador"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#980606"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:text="Leo Parédez"
+                            android:textAlignment="center"
+                            android:textColor="#FFFCFC"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="6dp"
+                        android:background="#AC0F0F" />
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="#AF0A0A"
+                        android:backgroundTint="#B80505">
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardView10"
+                            android:layout_width="312dp"
+                            android:layout_height="255dp"
+                            app:cardBackgroundColor="#AF0A0A"
+                            app:cardCornerRadius="40dp"
+                            app:cardElevation="100dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.488"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.511">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imgMiJugador"
+                                    android:layout_width="212dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/leoparedez" />
+
+                                <LinearLayout
+                                    android:layout_width="89dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="#AF0A0A"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imgMiBandera"
+                                        android:layout_width="89dp"
+                                        android:layout_height="70dp"
+                                        app:srcCompat="@drawable/argentina" />
+
+                                    <TextView
+                                        android:id="@+id/textView30"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="34dp" />
+
+                                    <TextView
+                                        android:id="@+id/textDorsal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Dorsal: 8"
+                                        android:textAlignment="center"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/textView32"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="31dp" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textView33"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="59dp"
+                                            android:layout_weight="1" />
+
+                                        <android.support.design.widget.FloatingActionButton
+                                            android:id="@+id/btnMeGusta"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:clickable="true"
+                                            android:contentDescription="TODO"
+                                            app:backgroundTint="#FFFFFF"
+                                            app:srcCompat="@drawable/dislike" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:background="#AC0F0F" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

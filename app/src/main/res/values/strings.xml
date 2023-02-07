@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProyectoAlexisAndroid</string>
+    <string name="creator">By: Alexis Aquino Miranda.</string>
+    <string name="titleApp">My album</string>
+</resources>

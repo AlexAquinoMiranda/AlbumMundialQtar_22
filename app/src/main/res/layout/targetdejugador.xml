@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D50909"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            app:cardBackgroundColor="#970202"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imagenDelJugador"
+                    android:layout_width="186dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/leoparedez"
+                    tools:srcCompat="@drawable/leoparedez" />
+
+                <TextView
+                    android:id="@+id/nombreDelJugador"
+                    android:layout_width="172dp"
+                    android:layout_height="77dp"
+                    android:layout_gravity="bottom|start|right|center_vertical|end"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Leo Parédez"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <LinearLayout
+                    android:layout_width="153dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imagenDelPais"
+                        android:layout_width="match_parent"
+                        android:layout_height="107dp"
+                        app:srcCompat="@drawable/alemania"
+                        tools:srcCompat="@drawable/alemania" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="53dp"
+                            android:layout_height="47dp"
+                            android:layout_weight="1" />
+
+                        <android.support.design.widget.FloatingActionButton
+                            android:id="@+id/botonLike"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:contentDescription="TODO"
+                            app:backgroundTint="#C80303"
+                            app:srcCompat="@android:drawable/btn_star" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>
